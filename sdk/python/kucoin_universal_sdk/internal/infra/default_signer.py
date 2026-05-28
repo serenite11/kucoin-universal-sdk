@@ -52,7 +52,7 @@ class KcSigner:
             raise RuntimeError("Broker information cannot be empty")
 
         partner_signature = self.sign((timestamp + self.broker_partner + self.api_key).encode(),
-                                      self.api_secret.encode())
+                                      self.broker_key.encode())
 
         return {
             "KC-API-KEY": self.api_key,

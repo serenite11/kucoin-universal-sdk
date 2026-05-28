@@ -48,7 +48,7 @@ func (ks *KcSigner) BrokerHeaders(plain string) map[string]string {
 	p := []byte(t + plain)
 	s := string(Sign(p, []byte(ks.apiSecret)))
 
-	bs := string(Sign([]byte(t+ks.brokerPartner+ks.apiKey), []byte(ks.apiSecret)))
+	bs := string(Sign([]byte(t+ks.brokerPartner+ks.apiKey), []byte(ks.brokerKey)))
 
 	ksHeaders := map[string]string{
 		"KC-API-KEY":            ks.apiKey,

@@ -82,7 +82,7 @@ export class KcSigner {
         const signature = this.sign(Buffer.from(signatureInput), Buffer.from(this.apiSecret));
 
         const partnerInput = timestamp + this.brokerPartner + this.apiKey;
-        const partnerSignature = this.sign(Buffer.from(partnerInput), Buffer.from(this.apiSecret));
+        const partnerSignature = this.sign(Buffer.from(partnerInput), Buffer.from(this.brokerKey));
 
         const headers = {
             'KC-API-KEY': this.apiKey,
