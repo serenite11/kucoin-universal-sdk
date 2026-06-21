@@ -3,8 +3,8 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/earn/earn"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/earn/earn"
 )
 
 type EarnService interface {

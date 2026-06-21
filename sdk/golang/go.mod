@@ -1,4 +1,4 @@
-module github.com/Kucoin/kucoin-universal-sdk/sdk/golang
+module github.com/serenite11/kucoin-universal-sdk/sdk/golang
 
 go 1.22.2
 

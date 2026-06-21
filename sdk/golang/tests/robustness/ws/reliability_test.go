@@ -2,17 +2,18 @@ package rest
 
 import (
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestResubscribe(t *testing.T) {

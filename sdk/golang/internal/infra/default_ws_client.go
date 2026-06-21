@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
 	"github.com/gorilla/websocket"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 func NewPingMessage() *types.WsMessage {

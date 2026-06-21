@@ -2,12 +2,13 @@ package infra
 
 import (
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/util"
-	"github.com/stretchr/testify/assert"
 	"sort"
 	"sync"
 	"testing"
 	"unsafe"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/util"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCallbackManager_Add(t *testing.T) {

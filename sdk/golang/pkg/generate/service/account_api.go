@@ -3,13 +3,13 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/account"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/deposit"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/fee"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/subaccount"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/transfer"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/withdrawal"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/account"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/deposit"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/fee"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/subaccount"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/transfer"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/withdrawal"
 )
 
 type AccountService interface {

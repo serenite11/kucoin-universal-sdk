@@ -1,16 +1,16 @@
 package ws
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/infra"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/futuresprivate"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/futurespublic"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/marginprivate"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/marginpublic"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotprivate"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/infra"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/futuresprivate"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/futurespublic"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/marginprivate"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/marginpublic"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotprivate"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 type KuCoinDefaultWsImpl struct {

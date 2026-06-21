@@ -3,7 +3,7 @@
 package account
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // GetIsolatedMarginAccountListV1Resp struct for GetIsolatedMarginAccountListV1Resp

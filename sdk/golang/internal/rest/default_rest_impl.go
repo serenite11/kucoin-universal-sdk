@@ -1,11 +1,11 @@
 package rest
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/infra"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/service"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/infra"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/service"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 type KuCoinDefaultRestImpl struct {

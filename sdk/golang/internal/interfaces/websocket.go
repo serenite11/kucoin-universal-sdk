@@ -2,7 +2,8 @@ package interfaces
 
 import (
 	"context"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // WsToken holds the token and API endpoint for a WebSocket connection

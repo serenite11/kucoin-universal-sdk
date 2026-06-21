@@ -4,14 +4,15 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/copytrading/futures"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/google/uuid"
 	"os"
 	"testing"
+
+	"github.com/google/uuid"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/copytrading/futures"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 var futuresApi futures.FuturesAPI

@@ -3,7 +3,7 @@
 package debit
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // GetBorrowHistoryResp struct for GetBorrowHistoryResp

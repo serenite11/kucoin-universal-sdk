@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
 	"github.com/google/go-querystring/query"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 type DefaultTransport struct {

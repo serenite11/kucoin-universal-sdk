@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
 	"os"
 	"testing"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 var marketApi market.MarketAPI

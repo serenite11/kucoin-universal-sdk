@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/viplending/viplending"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/viplending/viplending"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 var viplendingApi viplending.VIPLendingAPI

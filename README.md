@@ -43,7 +43,7 @@ pip install kucoin-universal-sdk
 ### Golang Installation
 
 ```bash
-go get github.com/Kucoin/kucoin-universal-sdk/sdk/golang
+go get github.com/serenite11/kucoin-universal-sdk/sdk/golang
 go mod tidy
 ```
 

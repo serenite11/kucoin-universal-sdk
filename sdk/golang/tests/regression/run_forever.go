@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	spotmarket "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	spotpublic "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	spotmarket "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	spotpublic "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
 )
 
 const (

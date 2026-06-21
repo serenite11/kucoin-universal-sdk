@@ -2,9 +2,10 @@ package util
 
 import (
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 	"sort"
 	"strings"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 )
 
 const EMPTY_ARGS_STR = "EMPTY_ARGS"

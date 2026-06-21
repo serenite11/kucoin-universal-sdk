@@ -3,11 +3,12 @@ package infra
 import (
 	"context"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/util"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+
 	"github.com/google/uuid"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/util"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 type DefaultWsService struct {

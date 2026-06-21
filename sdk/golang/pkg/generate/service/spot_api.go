@@ -3,9 +3,9 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/order"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/order"
 )
 
 type SpotService interface {

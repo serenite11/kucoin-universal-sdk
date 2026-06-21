@@ -274,7 +274,7 @@ public class GolangSdkGenerator extends AbstractGoCodegen implements NameService
                 apiEntryInfo.put("api_entry_value", entries);
                 operationService.getServiceMeta().forEach((k, v) -> {
                     Map<String, Object> entryValue = new HashMap<>();
-                    imports.add(String.format("github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/%s/%s",
+                    imports.add(String.format("github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/%s/%s",
                             v.getService().toLowerCase(), v.getSubService().toLowerCase()));
                     entryValue.put("api_entry_target_package", v.getSubService().toLowerCase());
                     entryValue.put("api_entry_target_api", formatService(v.getSubService()) + suffix);

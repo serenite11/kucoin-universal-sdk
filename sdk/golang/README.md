@@ -13,7 +13,7 @@ For an overview of the project and SDKs in other languages, refer to the [Main R
 Install the Golang SDK using `go get`:
 
 ```bash
-go get github.com/Kucoin/kucoin-universal-sdk/sdk/golang
+go get github.com/serenite11/kucoin-universal-sdk/sdk/golang
 go mod tidy
 ```
 
@@ -26,10 +26,10 @@ package main
 
 import (
 	"context"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 	"os"
 )
 

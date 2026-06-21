@@ -3,19 +3,20 @@ package rest
 import (
 	"bytes"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/tests/robustness/util"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"os/exec"
 	"runtime"
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/tests/robustness/util"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestResourceLeak(t *testing.T) {

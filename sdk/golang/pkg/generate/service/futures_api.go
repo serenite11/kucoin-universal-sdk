@@ -3,11 +3,11 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/fundingfees"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/order"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/positions"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/fundingfees"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/order"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/positions"
 )
 
 type FuturesService interface {

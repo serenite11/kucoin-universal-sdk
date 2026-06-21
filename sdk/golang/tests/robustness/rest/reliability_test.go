@@ -3,17 +3,18 @@ package rest
 import (
 	"context"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/stretchr/testify/assert"
 	"log"
 	"net/http"
 	"net/url"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestTimeout(t *testing.T) {

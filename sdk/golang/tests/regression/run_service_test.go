@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 
-	accountfee "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/fee"
-	earnapi "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/earn/earn"
-	futuresorder "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/order"
-	marginorder "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/order"
-	spotmarket "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	spotorder "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/order"
+	accountfee "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/account/fee"
+	earnapi "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/earn/earn"
+	futuresorder "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/order"
+	marginorder "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/order"
+	spotmarket "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	spotorder "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/order"
 
 	"github.com/google/uuid"
 )

@@ -1,11 +1,12 @@
 package infra
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/util"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
 	"strings"
 	"sync"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/util"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
 )
 
 type Callback struct {

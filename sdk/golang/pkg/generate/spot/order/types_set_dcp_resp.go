@@ -3,7 +3,7 @@
 package order
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // SetDCPResp If the data is empty, it means that DCP is not set.

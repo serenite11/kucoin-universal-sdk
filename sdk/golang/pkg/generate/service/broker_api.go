@@ -3,9 +3,9 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/broker/apibroker"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/broker/ndbroker"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/broker/apibroker"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/broker/ndbroker"
 )
 
 type BrokerService interface {

@@ -3,15 +3,16 @@ package spot_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/marginprivate"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/stretchr/testify/assert"
 	"log"
 	"os"
 	"sync"
 	"testing"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/marginprivate"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/stretchr/testify/assert"
 )
 
 var marginPrivateApi marginprivate.MarginPrivateWS

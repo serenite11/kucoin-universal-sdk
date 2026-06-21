@@ -3,13 +3,6 @@ package rest
 import (
 	"context"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	futuresmarket "github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/stretchr/testify/assert"
 	"net/http/httptrace"
 	"os"
 	"runtime"
@@ -17,6 +10,14 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	futuresmarket "github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/futures/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/stretchr/testify/assert"
 )
 
 var rSpotMarketApi market.MarketAPI

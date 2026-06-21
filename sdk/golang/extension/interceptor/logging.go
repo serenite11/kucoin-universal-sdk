@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
 	"io"
 	"net/http"
 	"time"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
 )
 
 // StartTimeKey Define a constant for the start time key in the context

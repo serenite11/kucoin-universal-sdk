@@ -4,7 +4,7 @@ package spotprivate
 
 import (
 	"encoding/json"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // OrderV2Event struct for OrderV2Event

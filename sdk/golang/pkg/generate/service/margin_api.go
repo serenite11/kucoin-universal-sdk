@@ -3,12 +3,12 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/credit"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/debit"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/order"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/risklimit"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/credit"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/debit"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/market"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/order"
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/generate/margin/risklimit"
 )
 
 type MarginService interface {

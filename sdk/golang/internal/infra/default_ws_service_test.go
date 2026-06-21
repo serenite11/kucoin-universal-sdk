@@ -3,12 +3,13 @@ package infra
 import (
 	"context"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/stretchr/testify/assert"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/serenite11/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/stretchr/testify/assert"
 )
 
 type websocketClientMock struct {
