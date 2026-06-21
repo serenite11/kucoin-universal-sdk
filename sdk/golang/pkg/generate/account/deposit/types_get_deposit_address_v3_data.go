@@ -20,11 +20,12 @@ type GetDepositAddressV3Data struct {
 	ContractAddress string `json:"contractAddress,omitempty"`
 	// The chainName of currency
 	ChainName string `json:"chainName,omitempty"`
+	Remark string `json:"remark,omitempty"`
 }
 
 // NewGetDepositAddressV3Data instantiates a new GetDepositAddressV3Data object
 // This constructor will assign default values to properties that have it defined
-func NewGetDepositAddressV3Data(address string, memo string, chainId string, to string, expirationDate int32, currency string, contractAddress string, chainName string) *GetDepositAddressV3Data {
+func NewGetDepositAddressV3Data(address string, memo string, chainId string, to string, expirationDate int32, currency string, contractAddress string, chainName, remark string) *GetDepositAddressV3Data {
 	this := GetDepositAddressV3Data{}
 	this.Address = address
 	this.Memo = memo
@@ -34,6 +35,7 @@ func NewGetDepositAddressV3Data(address string, memo string, chainId string, to 
 	this.Currency = currency
 	this.ContractAddress = contractAddress
 	this.ChainName = chainName
+	this.Remark = remark
 	return &this
 }
 
@@ -54,5 +56,6 @@ func (o *GetDepositAddressV3Data) ToMap() map[string]interface{} {
 	toSerialize["currency"] = o.Currency
 	toSerialize["contractAddress"] = o.ContractAddress
 	toSerialize["chainName"] = o.ChainName
+	toSerialize["remark"] = o.Remark
 	return toSerialize
 }
